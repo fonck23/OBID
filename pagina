@@ -1,1 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empresa el Titanic - Agencia de Viajes</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <!-- ENCABEZADO -->
+    <header>
+        <h1>EMPRESA EL TITANIC</h1>
+        <p>Agencia de viajes</p>
+    </header>
+
+    <!-- MENÚ DE NAVEGACIÓN -->
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#destinos">Destinos</a>
+        <a href="#paquetes">Paquetes</a>
+        <a href="#promociones">Promociones</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main>
+
+        <section id="inicio" class="bienvenida">
+            <h2>¡Bienvenido a Empresa el Titanic!</h2>
+            <p>
+                Somos una agencia de viajes dedicada a organizar
+                experiencias inolvidables. Con nosotros podrás
+                descubrir nuevos lugares, conocer diferentes
+                culturas y disfrutar de unas vacaciones increíbles.
+            </p>
+
+            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1000"
+                 alt="Hermosa playa tropical">
+        </section>
+
+        <!-- DESTINOS -->
+        <section id="destinos">
+            <h2>Nuestros destinos turísticos</h2>
+
+            <div class="contenedor">
+                <div class="tarjeta">
+                    <img src="https://images.unsplash.com/photo-1519046904884-53103b34b206?w=600"
+                         alt="Playa">
+                    <h3>Playas de México</h3>
+                    <p>Disfruta del sol, arena y mar.</p>
+                </div>
+
+                <div class="tarjeta">
+                    <img src="https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=600"
+                         alt="Italia">
+                    <h3>Europa</h3>
+                    <p>Conoce ciudades llenas de historia.</p>
+                </div>
+
+                <div class="tarjeta">
+                    <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=600"
+                         alt="Montañas">
+                    <h3>Turismo de aventura</h3>
+                    <p>Descubre paisajes naturales increíbles.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- PAQUETES -->
+        <section id="paquetes" class="paquetes">
+            <h2>Paquetes de viajes</h2>
+
+            <h3>Paquete Familiar</h3>
+            <p>Vacaciones para disfrutar con toda la familia.</p>
+
+            <h3>Paquete Romántico</h3>
+            <p>Destinos especiales para parejas.</p>
+
+            <h3>Paquete de Aventura</h3>
+            <p>Explora nuevos lugares y vive experiencias únicas.</p>
+        </section>
+
+        <!-- PROMOCIONES -->
+        <section id="promociones">
+            <h2>¡Promociones especiales!</h2>
+            <p>
+                Aprovecha nuestras promociones y comienza
+                a planear tus próximas vacaciones.
+            </p>
+            <h3>¡Viaja, conoce y disfruta!</h3>
+        </section>
+
+        <!-- CONTACTO -->
+        <section id="contacto">
+            <h2>Contáctanos</h2>
+            <p>Teléfono: 311 000 0000</p>
+            <p>Correo: contacto@eltitanic.com</p>
+            <p>Dirección: Tepic, Nayarit, México.</p>
+        </section>
+
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+        <p>Empresa el Titanic - Agencia de viajes</p>
+
+        <p>
+            Síguenos en nuestras redes sociales:
+        </p>
+
+        <div class="redes">
+            <a href="https://www.facebook.com/">Facebook</a>
+            <a href="https://www.instagram.com/">Instagram</a>
+            <a href="https://www.youtube.com/">YouTube</a>
+        </div>
+
+        <p>Teléfono general: 311 000 0000</p>
+
+        <hr>
+
+        <p>Elaborada por Acme Diseño WEB Empresa</p>
+        <p>© 2026 Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
 
